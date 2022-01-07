@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+// FIXME: legacy にしないとハンズオンと同じように進められないので一旦対応した
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react/legacy'
 
 function App() {
   return (
